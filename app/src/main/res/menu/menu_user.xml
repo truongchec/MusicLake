@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_update"
+        android:title="Modify information" />
+    <item
+        android:id="@+id/action_privacy"
+        android:title="Privacy setting" />
+
+</menu>
