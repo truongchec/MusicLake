@@ -41,7 +41,7 @@ import com.cyl.musiclake.ui.my.user.User
 import com.cyl.musiclake.ui.my.user.UserStatus
 import com.cyl.musiclake.utils.*
 import com.liulishuo.filedownloader.FileDownloader
-import com.sina.weibo.sdk.auth.AccessTokenKeeper
+//import com.sina.weibo.sdk.auth.AccessTokenKeeper
 import org.greenrobot.eventbus.EventBus
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
@@ -417,16 +417,16 @@ fun updateLoginToken() {
 /**
  * 注销登录
  */
-fun logout() {
-    UserStatus.clearUserInfo()
-    UserStatus.saveLoginStatus(false)
-    SPUtils.putAnyCommit(SPUtils.QQ_ACCESS_TOKEN, "")
-    SPUtils.putAnyCommit(SPUtils.QQ_OPEN_ID, "")
-    SocketManager.toggleSocket(false)
-    MusicApp.mTencent.logout(MusicApp.getAppContext())
-    AccessTokenKeeper.clear(MusicApp.getAppContext())
-    EventBus.getDefault().post(LoginEvent(false, null))
-}
+//fun logout() {
+//    UserStatus.clearUserInfo()
+//    UserStatus.saveLoginStatus(false)
+//    SPUtils.putAnyCommit(SPUtils.QQ_ACCESS_TOKEN, "")
+//    SPUtils.putAnyCommit(SPUtils.QQ_OPEN_ID, "")
+//    SocketManager.toggleSocket(false)
+//    MusicApp.mTencent.logout(MusicApp.getAppContext())
+//    AccessTokenKeeper.clear(MusicApp.getAppContext())
+//    EventBus.getDefault().post(LoginEvent(false, null))
+//}
 
 /**
  * 取消绑定网易云音乐

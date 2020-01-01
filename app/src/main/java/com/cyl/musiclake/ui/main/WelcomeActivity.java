@@ -20,8 +20,8 @@ import com.cyl.musiclake.utils.SPUtils;
 import com.cyl.musiclake.utils.SystemUtils;
 import com.liulishuo.filedownloader.FileDownloader;
 import com.liulishuo.filedownloader.util.FileDownloadLog;
-import com.sina.weibo.sdk.WbSdk;
-import com.sina.weibo.sdk.auth.AuthInfo;
+//import com.sina.weibo.sdk.WbSdk;
+//import com.sina.weibo.sdk.auth.AuthInfo;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.tencent.tauth.Tencent;
 
@@ -75,7 +75,7 @@ public class WelcomeActivity extends BaseActivity {
 
     private void initLogin() {
 
-        WbSdk.install(this, new AuthInfo(this, Constants.APP_KEY, Constants.REDIRECT_URL, Constants.SCOPE));
+        //WbSdk.install(this, new AuthInfo(this, Constants.APP_KEY, Constants.REDIRECT_URL, Constants.SCOPE));
 
         MusicApp.mTencent = Tencent.createInstance(Constants.APP_ID, this);
 

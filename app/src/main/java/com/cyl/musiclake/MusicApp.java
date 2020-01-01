@@ -24,7 +24,7 @@ import com.danikula.videocache.HttpProxyCacheServer;
 import com.google.gson.Gson;
 import com.liulishuo.filedownloader.FileDownloader;
 import com.liulishuo.filedownloader.util.FileDownloadLog;
-import com.tencent.bugly.Bugly;
+//import com.tencent.bugly.Bugly;
 import com.tencent.tauth.Tencent;
 
 import org.litepal.LitePal;
@@ -79,7 +79,7 @@ public class MusicApp extends MultiDexApplication {
 
     private void initSDK() {
         LitePal.initialize(this);
-        initBugly();
+        //initBugly();
         initDB();
         //内存检测
 //        if (BuildConfig.DEBUG) {
@@ -98,9 +98,9 @@ public class MusicApp extends MultiDexApplication {
     /**
      * 初始化bugly
      */
-    private void initBugly() {
-        Bugly.init(getApplicationContext(), Constants.BUG_APP_ID, BuildConfig.DEBUG);
-    }
+//    private void initBugly() {
+//        Bugly.init(getApplicationContext(), Constants.BUG_APP_ID, BuildConfig.DEBUG);
+//    }
 
 
     /**

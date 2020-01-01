@@ -5,7 +5,7 @@
     <string name="close">Close</string>
     <string name="permission_hint">Software must obtain relevant permissions</string>
     <string name="welcome_tips">Listen to the song you want to hear</string>
-    <string name="welcome_tips_1">音乐湖</string>
+    <string name="welcome_tips_1">Music Lake</string>
 
 
     <string name="my">My music</string>
@@ -240,7 +240,7 @@
     <!--歌单-->
     <string name="playlist_name">Song list name</string>
     <string name="playlist_online">My playlist</string>
-    <string name="playlist_creator">Creat</string>
+    <string name="playlist_creator">unknown</string>
     <string name="playlist_rename">Rename playlist</string>
     <string name="new_playlist_type_error">New type of playlist (currently supports local and online playlists)</string>
 
@@ -389,7 +389,7 @@
     <string name="float_window_manual_open">Please manually open the floating window permission</string>
     <string name="float_window_is_ready">Show floating window permission is enabled</string>
     <string name="float_window_is_refused">Floating window permission has been denied！</string>
-    <string name="local_title">Local</string>
+    <string name="local_title">Songs</string>
     <string name="album_title">Album</string>
     <string name="artist_title">Artist</string>
     <string name="folder_title">Folder</string>

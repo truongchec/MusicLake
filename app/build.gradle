@@ -150,11 +150,11 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
 
     //bugly的仓库
-    implementation 'com.tencent.bugly:crashreport_upgrade:1.4.2'
+  //  implementation 'com.tencent.bugly:crashreport_upgrade:1.4.2'
 //    implementation 'com.tencent.bugly:nativecrashreport:3.7.1'
 
     //微博
-    implementation 'com.sina.weibo.sdk:core:4.3.0:openDefaultRelease@aar'
+   // implementation 'com.sina.weibo.sdk:core:4.3.0:openDefaultRelease@aar'
 
     //横幅
     implementation 'com.github.pinguo-zhouwei:MZBannerView:v2.0.2'
@@ -168,10 +168,10 @@ dependencies {
     implementation 'com.google.apis:google-api-services-youtube:v3-rev198-1.23.0'
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.3'
 
-    //Android音乐接口Api
+
     implementation 'com.github.caiyonglong:musicapi:1.0.7'
 //    implementation project(':musicapi')
-    //缓存
+
     implementation 'com.danikula:videocache:2.7.1'
 
 }

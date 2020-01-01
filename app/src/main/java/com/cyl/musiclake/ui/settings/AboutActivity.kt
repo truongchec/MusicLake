@@ -22,7 +22,7 @@ import com.cyl.musiclake.ui.base.BasePresenter
 import com.cyl.musiclake.utils.ImageUtils
 import com.cyl.musiclake.utils.ToastUtils
 import com.cyl.musiclake.utils.Tools
-import com.tencent.bugly.beta.Beta
+//import com.tencent.bugly.beta.Beta
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.card_about_1.*
 import kotlinx.android.synthetic.main.card_about_2.*
@@ -79,9 +79,9 @@ class AboutActivity : BaseActivity<BasePresenter<BaseContract.BaseView>>() {
     /**
      *
      */
-    fun onCheckUpdate(view: View) {
-        Beta.checkUpgrade()
-    }
+//    fun onCheckUpdate(view: View) {
+//        Beta.checkUpgrade()
+//    }
 
     /**
      *

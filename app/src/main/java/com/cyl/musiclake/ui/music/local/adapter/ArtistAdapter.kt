@@ -17,7 +17,7 @@ class ArtistAdapter(private val artistList: List<Artist>) : BaseQuickAdapter<Art
 
     override fun convert(helper: BaseViewHolder, artist: Artist) {
         helper.setText(R.id.name, artist.name)
-        helper.setText(R.id.artist, artist.musicSize.toString() + "Song")
+        helper.setText(R.id.artist, artist.musicSize.toString() + "unknown")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             helper.getView<ImageView>(R.id.album).transitionName = Constants.TRANSTITION_ALBUM
         }

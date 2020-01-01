@@ -47,7 +47,7 @@ import com.cyl.musiclake.utils.ToastUtils;
 import com.cyl.musiclake.utils.Tools;
 import com.google.android.material.internal.NavigationMenuView;
 import com.google.android.material.navigation.NavigationView;
-import com.tencent.bugly.beta.Beta;
+//import com.tencent.bugly.beta.Beta;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -56,7 +56,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import butterknife.BindView;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import static com.cyl.musiclake.ui.UIUtilsKt.logout;
+//import static com.cyl.musiclake.ui.UIUtilsKt.logout;
 import static com.cyl.musiclake.ui.UIUtilsKt.updateLoginToken;
 
 
@@ -98,7 +98,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
      //   checkLoginStatus();
         initCountDownView();
 
-        Beta.checkUpgrade(false, false);
+      //  Beta.checkUpgrade(false, false);
     }
 
 
